@@ -1,3 +1,3 @@
 # Portfólio
 Site em desenvolvimento: 
-# https://luc4m.netlify.app/
+# https://luc4m.github.io/Portfolio/
