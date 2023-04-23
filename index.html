@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Portfólio</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
                 <a href="#">Home</a>
                 <a href="#">Sobre</a>
                 <a href="#">Projetos</a>
-                <a href="#">Contato</a>
+                <a href="#contato">Contato</a>
             </li>
         </ul>
 
@@ -42,7 +42,7 @@
         </div>
 
         <div class="hero-img">
-            <img src="perfil.png" class="foto">
+            <img src="images/perfil.png" class="foto">
         </div>
     </section>
 
@@ -53,12 +53,58 @@
         <a href="#"><i class="ri-mail-line"></i></a>
     </div>
 
-    <div class="scroll-down">
-        <a href="#"><i class="ri-arrow-down-s-fill"></i></a>
+    <div class="scroll-top">
+        <a href="#"><i class="ri-arrow-up-s-fill"></i></a>
     </div>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
 
-    <script src="script.js"></script>
+
+
+    <section class="contact section" id="contato"> 
+            <h3 class="contact-title padd-15">CONTATO</h3>
+            <h4 class="contact-sub-title padd-15"><em>VERIFICADO DIARIAMENTE!</em></h4>
+            <div class="row">
+                <form action="https://api.staticforms.xyz/submit" method="post"></form>
+                <div class="contact-form padd-15">
+                    <div class="row">
+                        <div class="form-item col-6 padd-15">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name" placeholder="Nome" autocomplete="off" required>
+                            </div>
+                        </div>
+                        <div class="form-item col-6 padd-15">
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" placeholder="Email" autocomplete="off" required> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-item col-12 padd-15">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Objetivo" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-item col-12 padd-15">
+                            <div class="form-group">
+                                <textarea name="message" class="form-control" placeholder="Mensagem..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-item col-12 padd-15">
+                            <div class="form-group">
+                        <button type="submit" class="btn" id="btn1">Enviar <i class="fas fa-paper-plane"></i></button>
+                        <input type="hidden" name="accessKey" value="0f68aa6c-0f0a-4465-af5a-ba6df025c5ed">
+                        <input type="hidden" name="redirectTo" value="https://luc4m.github.io/Portfolio/obrigado.html">
+                    </div>
+            </div>
+        </div>
+    </form>
+    </section>
+
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>
