@@ -72,7 +72,6 @@ header #menu-icon{
 
 
 section.hero{
-    height: 100%;
     max-width: 100vw;
     min-height: 100vh;
     background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
@@ -151,7 +150,7 @@ section.hero a.ctaa{
 
 div.icons{
     position: absolute;
-    top: 50%;
+    top: 40%;
     padding: 0 5%;
     transform: translateY(-50%);
 }
@@ -268,10 +267,6 @@ div.scroll-top i:hover{
         width: 300px;
         height: auto;
     }
-    .hero{
-        padding: 0;
-        margin: 0;
-    }
     .hero-text{
         width: 100%;
         padding: 20px;
@@ -279,13 +274,13 @@ div.scroll-top i:hover{
         text-align: center;
     }
     .navlist{
+        display: none !important;
         position: absolute;
         top: 100%;
         right: -100%;
         width: 200px;
         height: 40vh;
-        background: #00000077;
-        display: flex;
+        background: #000000a2;
         align-items: center;
         padding: 40px 20px;
         transition: all .50s ease;
@@ -298,6 +293,7 @@ div.scroll-top i:hover{
 
     .navlist.open{
         right: 0;
+        display: flex !important;
 
     }
 }
