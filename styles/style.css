@@ -132,7 +132,7 @@ section.hero a:hover{
     transform: translateX(3px);
 }
 
-section.hero a.ctaa{
+section.hero a{
     margin-left: 10px;
 }
 
@@ -298,6 +298,16 @@ div.scroll-top i:hover{
     }
 }
 
+@media (max-width: 836px){
+    .logo{
+        display: none;
+    }
+    header{
+        display: flex;
+        justify-content: end;
+       }
+}
+
 @media (max-width: 650px){
     header{
         height: auto;
@@ -328,9 +338,6 @@ div.scroll-top i:hover{
         width: 100%;
         padding: 5%;
         margin-bottom: 6%;
-   }
-   .logo{
-    display: none;
    }
 }
 
