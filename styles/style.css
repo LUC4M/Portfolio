@@ -112,6 +112,7 @@ section.hero p{
 
 }
 
+
 section.hero a{
     display: inline-block;
     color: white;
@@ -130,6 +131,10 @@ section.hero a:hover{
     background: transparent;
     border: 1px solid white;
     transform: translateX(3px);
+}
+
+section.hero a{
+    margin-right: 10px;
 }
 
 .hero-img img{
