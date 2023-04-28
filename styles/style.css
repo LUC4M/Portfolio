@@ -132,10 +132,6 @@ section.hero a:hover{
     transform: translateX(3px);
 }
 
-section.hero a{
-    margin-left: 10px;
-}
-
 .hero-img img{
     width: 370px;
     height: auto;
@@ -339,6 +335,9 @@ div.scroll-top i:hover{
         padding: 5%;
         margin-bottom: 6%;
    }
+   section.hero a{
+    margin-left: 10px;
+}
 }
 
 
