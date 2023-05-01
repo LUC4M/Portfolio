@@ -307,6 +307,18 @@ div.scroll-top i:hover{
         display: flex;
         justify-content: end;
        }
+       .hero-text a{
+        width: 100%;
+        padding: 5%;
+        margin-bottom: 6%;
+   }
+     section.hero a{
+     margin-left: 10px;
+     background-color: #4b6cb7;
+}
+    #btn1.btn{
+     background-color: #4b6cb7;
+    }
 }
 
 @media (max-width: 650px){
@@ -327,11 +339,21 @@ div.scroll-top i:hover{
         padding: 10px;
         height: auto;
     }
+    .service .service-item{
+        flex-direction: column;
+        margin: auto;
+    }
+    section.hero{
+        background: #6d91e4;
+    }
+    .contact.section{
+        background: #6d91e4;
+    }
 }
 
 
 
-@media (max-width: 419px){
+@media (max-width: 432px){
     section.hero{
         width: 100vw;
     }
@@ -361,12 +383,21 @@ div.scroll-top i:hover{
 .service .service-item{
     margin-bottom: 30px;
     flex: 0 0 33.33%;
-    max-width: 33.33%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.servicos-title{
+    margin-top: 2%;
+    color: #000000;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 6%;
 }
 
 .service .service-item .service-item-inner{
     background-color: #fff;
-    border: 1px solid var(--bg-black-50);
+    border: 1px solid #000;
     border-radius: 10px;
     padding: 30px 15px;
     text-align: center;
@@ -416,6 +447,7 @@ div.scroll-top i:hover{
     font-size: 16px;
     color: #000;
     line-height: 25px;
+    margin: auto;
 }
 
 
